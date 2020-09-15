@@ -1,0 +1,15 @@
+git commit -m filename = commit a specific file (remove filename to commit all staged changes)
+git reset filename = move file back to unstaged
+git diff
+git diff --staged =see differences since last commit
+git rm filename = remove a tracked file
+git log = get repository history
+git log filename
+git diff HEAD-2 = see difference between speific comments
+git revert commitid = undo a commit
+git checkout filename = change the head
+git push = pushes commits from shell to repository
+git pull = pulls files from repository
+git branch branchname = creates a branch of the repository
+git fork = forks a repository
+grep = finds a specific pattern in files
