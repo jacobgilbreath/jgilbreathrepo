@@ -62,4 +62,8 @@ ggplot(f)+geom_point(aes(x=n,y=cases),color="Black")+
   xlab("Date")
 
 #Date vs Each Linear regression
-lm(aap)
+lmA=lm(aapl ~ cases,data=f)
+summary(lmA)
+
+lmM=lm(msft ~ cases,data=f)
+summary(lmM)
